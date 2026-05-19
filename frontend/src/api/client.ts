@@ -23,6 +23,16 @@ export class ApiError extends Error {
   }
 }
 
+const assertJsonResponse = (response: Response, path: string, method: string): void => {
+  if (!response.ok) {
+    throw new ApiError(response.status, `${method} ${path} failed`);
+  }
+  const contentType = response.headers.get('content-type') ?? '';
+  if (!contentType.includes('application/json')) {
+    throw new ApiError(response.status, `${method} ${path} returned non-JSON`);
+  }
+};
+
 export const apiGet = async <T>(
   path: string,
   params?: Record<string, string | undefined>,
@@ -33,9 +43,7 @@ export const apiGet = async <T>(
     headers: { Accept: 'application/json' },
     ...init,
   });
-  if (!response.ok) {
-    throw new ApiError(response.status, `GET ${path} failed`);
-  }
+  assertJsonResponse(response, path, 'GET');
   return (await response.json()) as T;
 };
 
@@ -53,8 +61,6 @@ export const apiPost = async <TBody, TResponse>(
     body: JSON.stringify(body),
     ...init,
   });
-  if (!response.ok) {
-    throw new ApiError(response.status, `POST ${path} failed`);
-  }
+  assertJsonResponse(response, path, 'POST');
   return (await response.json()) as TResponse;
 };

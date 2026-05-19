@@ -36,7 +36,11 @@ const safeApiGet = async <T>(
   try {
     return await apiGet<T>(path, params);
   } catch (error) {
-    if (error instanceof ApiError || error instanceof TypeError) {
+    if (
+      error instanceof ApiError ||
+      error instanceof TypeError ||
+      error instanceof SyntaxError
+    ) {
       return fallback;
     }
     throw error;
@@ -46,19 +50,18 @@ const safeApiGet = async <T>(
 export const useProducts = (filter?: { segment?: Segment; collection?: string }) =>
   useQuery({
     queryKey: ['products', filter ?? {}],
-    queryFn: () =>
-      safeApiGet<ProductsResponse>(
+    queryFn: () => {
+      const filtered = mockProducts.filter((product) => {
+        if (filter?.segment && product.segment !== filter.segment) return false;
+        if (filter?.collection && product.collection !== filter.collection) return false;
+        return true;
+      });
+      return safeApiGet<ProductsResponse>(
         '/products',
-        {
-          items: mockProducts.filter((product) => {
-            if (filter?.segment && product.segment !== filter.segment) return false;
-            if (filter?.collection && product.collection !== filter.collection) return false;
-            return true;
-          }),
-          total: mockProducts.length,
-        },
+        { items: filtered, total: filtered.length },
         { segment: filter?.segment, collection: filter?.collection },
-      ),
+      );
+    },
   });
 
 export const useCollections = (segment?: Segment) =>
