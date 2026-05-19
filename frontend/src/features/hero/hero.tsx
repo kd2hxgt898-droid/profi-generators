@@ -6,6 +6,7 @@ import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { HERO_HOUSE, ROUTES } from '@/lib/constants';
 import { cn } from '@/lib/utils';
+import { useIsMobile } from '@/hooks/use-is-mobile';
 import { HeroBackgroundCanvas } from '@/features/hero/hero-background-canvas';
 import { CalmSwitch } from '@/features/hero/calm-switch';
 import { createCalmSwitchAudio, type CalmSwitchAudio } from '@/features/hero/calm-switch-audio';
@@ -15,6 +16,10 @@ const AUTO_RESET_MS = 12_500;
 export const Hero = (): JSX.Element => {
   const { t } = useTranslation();
   const prefersReduceMotion = useReducedMotion();
+  const isMobile = useIsMobile();
+
+  const heroDarkSrc = isMobile ? HERO_HOUSE.darkMobile : HERO_HOUSE.dark;
+  const heroLightSrc = isMobile ? HERO_HOUSE.lightMobile : HERO_HOUSE.light;
 
   const [powerOn, setPowerOn] = useState(false);
   const [showResetHint, setShowResetHint] = useState(false);
@@ -35,6 +40,12 @@ export const Hero = (): JSX.Element => {
       audioRef.current = null;
     };
   }, []);
+
+  useEffect(() => {
+    const preload = new Image();
+    preload.decoding = 'async';
+    preload.src = heroLightSrc;
+  }, [heroLightSrc]);
 
   useEffect(() => {
     if (!powerOn) {
@@ -86,7 +97,12 @@ export const Hero = (): JSX.Element => {
         {t('brand.name')} — {t('brand.tagline')}
       </h1>
 
-      <HeroBackgroundCanvas src={HERO_HOUSE.dark} fit="cover" className="-z-20" />
+      <HeroBackgroundCanvas
+        src={heroDarkSrc}
+        fit="cover"
+        className="-z-20"
+        preferNativeImage={isMobile}
+      />
 
       <motion.div
         className="absolute inset-0 -z-10 will-change-[opacity]"
@@ -94,7 +110,13 @@ export const Hero = (): JSX.Element => {
         animate={{ opacity: powerOn ? 1 : 0 }}
         transition={{ duration: crossFade, ease: 'easeInOut' }}
       >
-        <HeroBackgroundCanvas src={HERO_HOUSE.light} fit="cover" />
+        <HeroBackgroundCanvas
+          src={heroLightSrc}
+          fit="cover"
+          preferNativeImage={isMobile}
+          active={powerOn}
+          fetchPriority="high"
+        />
       </motion.div>
 
       <motion.div

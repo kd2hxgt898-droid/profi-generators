@@ -33,8 +33,10 @@ export function boutiqueProductPath(productId: string): string {
   return `${ROUTES.boutique}/${encodeURIComponent(productId)}`;
 }
 
-/** Hero: два слоя PNG (тёмный / светлый), вывод через canvas. */
+/** Hero: два слоя PNG (тёмный / светлый). На мобильных — уменьшенные копии (≤2048px). */
 export const HERO_HOUSE = {
   dark: '/images/hero/dark03.png',
   light: '/images/hero/house-light-1.png',
+  darkMobile: '/images/hero/dark03-mobile.png',
+  lightMobile: '/images/hero/house-light-mobile.png',
 } as const;
