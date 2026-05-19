@@ -6,8 +6,6 @@ import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { HERO_HOUSE, ROUTES } from '@/lib/constants';
 import { cn } from '@/lib/utils';
-import { useIsMobile } from '@/hooks/use-is-mobile';
-import { HeroBackgroundCanvas } from '@/features/hero/hero-background-canvas';
 import { CalmSwitch } from '@/features/hero/calm-switch';
 import { createCalmSwitchAudio, type CalmSwitchAudio } from '@/features/hero/calm-switch-audio';
 
@@ -16,10 +14,6 @@ const AUTO_RESET_MS = 12_500;
 export const Hero = (): JSX.Element => {
   const { t } = useTranslation();
   const prefersReduceMotion = useReducedMotion();
-  const isMobile = useIsMobile();
-
-  const heroDarkSrc = isMobile ? HERO_HOUSE.darkMobile : HERO_HOUSE.dark;
-  const heroLightSrc = isMobile ? HERO_HOUSE.lightMobile : HERO_HOUSE.light;
 
   const [powerOn, setPowerOn] = useState(false);
   const [showResetHint, setShowResetHint] = useState(false);
@@ -42,10 +36,12 @@ export const Hero = (): JSX.Element => {
   }, []);
 
   useEffect(() => {
-    const preload = new Image();
-    preload.decoding = 'async';
-    preload.src = heroLightSrc;
-  }, [heroLightSrc]);
+    for (const src of [HERO_HOUSE.light, HERO_HOUSE.lightMobile]) {
+      const preload = new Image();
+      preload.decoding = 'async';
+      preload.src = src;
+    }
+  }, []);
 
   useEffect(() => {
     if (!powerOn) {
@@ -76,20 +72,21 @@ export const Hero = (): JSX.Element => {
   const handleCommitOn = useCallback((): void => {
     if (powerOn || engageLockRef.current) return;
     engageLockRef.current = true;
+    setPowerOn(true);
     const a = audioRef.current;
     void (async (): Promise<void> => {
       try {
         await a?.resume();
         a?.playClunk();
         a?.startHum();
-        setPowerOn(true);
       } catch {
-        engageLockRef.current = false;
+        /* звук необязателен — свет включаем в любом случае */
       }
     })();
   }, [powerOn]);
 
   const crossFade = prefersReduceMotion ? 0.22 : 0.52;
+  const crossFadeClass = prefersReduceMotion ? 'duration-[220ms]' : 'duration-[520ms]';
 
   return (
     <section className="relative isolate min-h-[min(920px,94vh)] overflow-hidden">
@@ -97,27 +94,37 @@ export const Hero = (): JSX.Element => {
         {t('brand.name')} — {t('brand.tagline')}
       </h1>
 
-      <HeroBackgroundCanvas
-        src={heroDarkSrc}
-        fit="cover"
-        className="-z-20"
-        preferNativeImage={isMobile}
-      />
+      <div aria-hidden className="absolute inset-0 -z-20 bg-navy-950">
+        <picture className="block h-full w-full">
+          <source media="(max-width: 767px)" srcSet={HERO_HOUSE.darkMobile} />
+          <img
+            src={HERO_HOUSE.dark}
+            alt=""
+            decoding="async"
+            className="h-full w-full object-cover"
+          />
+        </picture>
+      </div>
 
-      <motion.div
-        className="absolute inset-0 -z-10 will-change-[opacity]"
-        initial={false}
-        animate={{ opacity: powerOn ? 1 : 0 }}
-        transition={{ duration: crossFade, ease: 'easeInOut' }}
+      <div
+        aria-hidden
+        className={cn(
+          'absolute inset-0 -z-10 transform-gpu transition-opacity ease-in-out',
+          crossFadeClass,
+          powerOn ? 'opacity-100' : 'opacity-0',
+        )}
       >
-        <HeroBackgroundCanvas
-          src={heroLightSrc}
-          fit="cover"
-          preferNativeImage={isMobile}
-          active={powerOn}
-          fetchPriority="high"
-        />
-      </motion.div>
+        <picture className="block h-full w-full">
+          <source media="(max-width: 767px)" srcSet={HERO_HOUSE.lightMobile} />
+          <img
+            src={HERO_HOUSE.light}
+            alt=""
+            decoding="async"
+            fetchPriority="high"
+            className="h-full w-full object-cover"
+          />
+        </picture>
+      </div>
 
       <motion.div
         aria-hidden

@@ -59,7 +59,7 @@ export function CalmSwitch({
     <div className="flex flex-col items-center gap-3">
       <p className="max-w-xs text-center text-xs text-navy-100/80 md:hidden">{swipeHint}</p>
       <div
-        className="relative touch-pan-y"
+        className="relative touch-none"
         style={{ width: TRACK_W, height: TRACK_H }}
         onPointerDown={() => {
           onPrimeAudio();
