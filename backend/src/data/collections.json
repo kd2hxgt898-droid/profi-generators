@@ -1,0 +1,38 @@
+[
+  {
+    "id": "country",
+    "segment": "home",
+    "background": "/images/collections/country.png",
+    "badge": "Хит сезона"
+  },
+  {
+    "id": "comfort",
+    "segment": "home",
+    "background": "/images/collections/comfort.png",
+    "badge": "Рекомендует Кристовский"
+  },
+  {
+    "id": "fortress",
+    "segment": "home",
+    "background": "/images/collections/fortress.png",
+    "badge": "Премиум"
+  },
+  {
+    "id": "retail",
+    "segment": "business",
+    "background": "/images/collections/retail.png",
+    "badge": "Окупаемость 6 мес."
+  },
+  {
+    "id": "production",
+    "segment": "business",
+    "background": "/images/collections/production.png",
+    "badge": "Защита фаз"
+  },
+  {
+    "id": "datacenter",
+    "segment": "business",
+    "background": "/images/collections/datacenter.png",
+    "badge": "Zero downtime"
+  }
+]

@@ -1,0 +1,31 @@
+[package]
+name = "profi-generators-backend"
+version = "0.1.0"
+edition = "2021"
+description = "Mock REST API for Profi Generators (Rocket 0.5)"
+license = "MIT"
+
+[lib]
+name = "profi_generators_backend"
+path = "src/lib.rs"
+
+[[bin]]
+name = "profi-generators-backend"
+path = "src/main.rs"
+
+[dependencies]
+rocket = { version = "0.5", features = ["json"] }
+rocket_cors = "0.6"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+chrono = { version = "0.4", features = ["serde", "clock"] }
+uuid = { version = "1", features = ["v4", "serde"] }
+
+[dev-dependencies]
+rocket = { version = "0.5", features = ["json"] }
+serde_json = "1"
+
+[profile.release]
+opt-level = 3
+lto = true
+strip = true

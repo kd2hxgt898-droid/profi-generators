@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://profi-generators.ru/sitemap.xml

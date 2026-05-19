@@ -1,0 +1,996 @@
+[
+  {
+    "id": "zongshen-bqh-2000",
+    "name": "Zongshen BQH 2000",
+    "brand": "Zongshen",
+    "fuel": "petrol",
+    "collection": "country",
+    "segment": "home",
+    "price": 49990,
+    "power_kw": 1.44,
+    "phases": 1,
+    "silence_level": 1,
+    "badges": [
+      "compact",
+      "country"
+    ],
+    "coverage": [
+      "light",
+      "wifi"
+    ],
+    "image": "/images/products/zongshen-bqh-2000.png",
+    "short_description": "Компактный инверторный генератор для дачи: освещение, насос, Wi-Fi.",
+    "highlights": [
+      "Тихий инверторный двигатель Zongshen 79 cc",
+      "Параллельное подключение для удвоения мощности",
+      "Вес всего 26 кг — переносится одной рукой"
+    ],
+    "start_type": "manual",
+    "enclosure": "open",
+    "warranty_years": 2
+  },
+  {
+    "id": "zongshen-bqh-2200",
+    "name": "Zongshen BQH 2200 E",
+    "brand": "Zongshen",
+    "fuel": "petrol",
+    "collection": "country",
+    "segment": "home",
+    "price": 54990,
+    "power_kw": 1.9,
+    "phases": 1,
+    "silence_level": 1,
+    "badges": [
+      "compact"
+    ],
+    "coverage": [
+      "light",
+      "cold",
+      "wifi",
+      "tv"
+    ],
+    "image": "/images/products/zongshen-bqh-2200.png",
+    "short_description": "BQH 2200 E — ультракомпактный инвертор с электростартом: медь, закрытый кожух, 65 дБ, номинал 1,9 кВт (макс. 2,1 кВт).",
+    "highlights": [
+      "Инвертор — безопасно для смартфонов и ноутбуков",
+      "Электростартер при весе 18,3 кг",
+      "65 дБ, бак 4 л, расход от 0,36 л/ч",
+      "Аккумулятор в комплекте, гарантия 2 года"
+    ],
+    "start_type": "electric",
+    "enclosure": "silent",
+    "warranty_years": 2,
+    "landing": {
+      "tagline": "Компактная энергия всегда под рукой",
+      "intro": "Zongshen BQH 2200 E — ультракомпактная и лёгкая электростанция для тех, кто ценит мобильность. Подходит для света на даче и комфортного отдыха на природе.",
+      "benefits_heading": "Почему это отличный выбор?",
+      "benefits": [
+        {
+          "title": "Безопасен для техники",
+          "body": "Инверторная технология даёт стабильный ток без скачков. Смартфоны, ноутбуки и другую чувствительную электронику можно подключать напрямую — без риска для приборов."
+        },
+        {
+          "title": "Электрозапуск в компактном классе",
+          "body": "Один из самых маленьких генераторов с электростартером: запуск лёгким нажатием, без необходимости пользоваться только ручным стартером."
+        },
+        {
+          "title": "Рекордная лёгкость",
+          "body": "Вес 18,3 кг и эргономичная широкая ручка — удобно нести одной рукой. Занимает мало места в багажнике и при хранении."
+        },
+        {
+          "title": "Тихий и незаметный",
+          "body": "Закрытый кожух и компактный двигатель: уровень шума 65 дБ — сопоставим с обычным разговором. Не мешает отдыху и соседям."
+        },
+        {
+          "title": "Надёжная защита",
+          "body": "Прочный закрытый корпус защищает узлы от пыли, влаги и ударов при транспортировке."
+        }
+      ],
+      "power_section_title": "Что он сможет запитать одновременно?",
+      "power_intro": "Мощности 1,9–2,1 кВт достаточно, чтобы обеспечить работу базовых приборов:",
+      "power_items": [
+        "Холодильник",
+        "Система освещения (LED-лампы)",
+        "Ноутбук или телевизор",
+        "Зарядка смартфонов и Wi‑Fi роутер"
+      ],
+      "quick_facts_heading": "Коротко о главном",
+      "quick_facts": [
+        {
+          "label": "Топливо",
+          "value": "Бензин АИ-92."
+        },
+        {
+          "label": "Экономичность",
+          "value": "Расход от 0,36 л/ч — длительная работа на одном баке."
+        },
+        {
+          "label": "Надёжность",
+          "value": "Медная обмотка и официальная гарантия 2 года."
+        },
+        {
+          "label": "Простота",
+          "value": "Понятная панель управления — справится даже без технического опыта."
+        }
+      ],
+      "audience": "Идеально для автотуристов, кемпинга, рыбалки и небольших дач как мобильный источник света и энергии.",
+      "kit_heading": "Комплектация",
+      "kit": "Генератор, инструкция, упаковка.",
+      "kit_note": "Перед первым запуском проверьте уровень масла и подсоедините провод АКБ согласно инструкции.",
+      "specs_heading": "Технические характеристики",
+      "specs_excluded": "В данной модели отсутствуют следующие элементы: система автозапуска, транспортировочные колёса, цифровой дисплей, счётчик моточасов, выход 12V, а также разъёмы на 380 В.",
+      "specs_intro": "Перечень технических характеристик Zongshen BQH 2200 E (1T90DFQ23):",
+      "passport_noise_db": 65,
+      "specs_table": [
+        {
+          "label": "Напряжение",
+          "value": "220 В"
+        },
+        {
+          "label": "Стартер",
+          "value": "Ручной стартер / электростартер"
+        },
+        {
+          "label": "Аккумулятор в комплекте",
+          "value": "Да"
+        },
+        {
+          "label": "Макс. мощность",
+          "value": "2,1 кВт"
+        },
+        {
+          "label": "Номинальная мощность при 220 В",
+          "value": "1,9 кВт"
+        },
+        {
+          "label": "Альтернатор",
+          "value": "Синхронный"
+        },
+        {
+          "label": "Обмотка альтернатора двигателя",
+          "value": "Медь"
+        },
+        {
+          "label": "Тип двигателя",
+          "value": "4-тактный"
+        },
+        {
+          "label": "Мощность двигателя",
+          "value": "4,5 л.с."
+        },
+        {
+          "label": "Модель двигателя",
+          "value": "148 FD/P R E"
+        },
+        {
+          "label": "Производитель двигателя",
+          "value": "Zongshen"
+        },
+        {
+          "label": "Объём двигателя",
+          "value": "79 см³"
+        },
+        {
+          "label": "Вид топлива",
+          "value": "Бензин"
+        },
+        {
+          "label": "Ёмкость топливного бака",
+          "value": "4 л"
+        },
+        {
+          "label": "Объём масляного бака",
+          "value": "0,5 л"
+        },
+        {
+          "label": "Датчик масла",
+          "value": "Да"
+        },
+        {
+          "label": "Индикатор уровня топлива",
+          "value": "Да"
+        },
+        {
+          "label": "Контроль напряжения",
+          "value": "Инверторный"
+        },
+        {
+          "label": "Тип кожуха",
+          "value": "Закрытый (шумозащитный)"
+        },
+        {
+          "label": "Степень защиты",
+          "value": "IP23"
+        },
+        {
+          "label": "Уровень шума",
+          "value": "65 дБ"
+        },
+        {
+          "label": "Эл. выходы 220 / 12 В",
+          "value": "1 / 1 шт."
+        },
+        {
+          "label": "Сила тока розеток 220 / 12 В",
+          "value": "16 / 8 А"
+        },
+        {
+          "label": "Вес нетто",
+          "value": "18,3 кг"
+        },
+        {
+          "label": "Габариты (Д × Ш × В)",
+          "value": "440 × 290 × 450 мм"
+        },
+        {
+          "label": "Ручки для переноски",
+          "value": "Есть"
+        },
+        {
+          "label": "Число оборотов",
+          "value": "3000 об/мин"
+        },
+        {
+          "label": "Класс товара",
+          "value": "Бытовой / туристический"
+        }
+      ]
+    }
+  },
+  {
+    "id": "zongshen-bqh-2800",
+    "name": "Zongshen BQH 2800 E",
+    "brand": "Zongshen",
+    "fuel": "petrol",
+    "collection": "country",
+    "segment": "home",
+    "price": 59990,
+    "power_kw": 2.3,
+    "phases": 1,
+    "silence_level": 2,
+    "badges": [
+      "hit",
+      "compact"
+    ],
+    "coverage": [
+      "light",
+      "cold",
+      "tv",
+      "wifi"
+    ],
+    "image": "/images/products/zongshen-bqh-2800.png",
+    "short_description": "Инверторный генератор BQH 2800 E — компактная станция для дома и отдыха: чистая синусоида для техники, электростарт, закрытый кожух, номинал 2,3 кВт (макс. 2,5 кВт).",
+    "highlights": [
+      "Инверторный «чистый» ток — безопасно для ноутбуков, смартфонов и современных ТВ",
+      "Ручной старт и электростартер: запуск без рывка шнура",
+      "22 кг, габариты как у дорожной сумки — удобно в багажнике и на балконе",
+      "Закрытый кожух IP23, дисплей и счётчик моточасов; бак 5,8 л, выходы 220 В и 12 В (16 А / 8 А)",
+      "Двигатель 165FED/P, 149 см³, медная обмотка; масляный датчик и индикатор топлива"
+    ],
+    "start_type": "electric",
+    "enclosure": "silent",
+    "warranty_years": 2,
+    "landing": {
+      "tagline": "Электричество там, где оно нужно",
+      "intro": "Zongshen BQH 2800 E — это компактная и умная электростанция, которая выручит вас при отключении света в доме или станет незаменимым помощником в поездке на природу.",
+      "benefits_heading": "Почему это отличный выбор?",
+      "benefits": [
+        {
+          "title": "Безопасен для техники",
+          "body": "Благодаря инверторной технологии, генератор выдаёт «чистый» ток без скачков. К нему можно напрямую подключать дорогие ноутбуки, смартфоны, планшеты и современные телевизоры — они не сгорят."
+        },
+        {
+          "title": "Запуск одной кнопкой",
+          "body": "В этой модели есть электростартер. Больше не нужно с силой дёргать шнур — генератор заводится легко и просто, справится даже новичок."
+        },
+        {
+          "title": "Лёгкий и компактный",
+          "body": "Весит всего 22 кг и по размеру не больше дорожной сумки. Легко поместится в багажник любого автомобиля и не займёт много места в гараже или на балконе."
+        },
+        {
+          "title": "Тихий и защищённый",
+          "body": "Генератор закрыт специальным кожухом, который поглощает шум и защищает внутренние детали от пыли и грязи."
+        },
+        {
+          "title": "Всё под контролем",
+          "body": "На встроенном дисплее вы всегда увидите важную информацию, например, сколько часов проработал прибор (чтобы вовремя заменить масло)."
+        }
+      ],
+      "power_section_title": "Что он сможет запитать одновременно?",
+      "power_intro": "Мощности 2,3–2,5 кВт вполне хватит, чтобы в загородном доме одновременно работали:",
+      "power_items": [
+        "Холодильник",
+        "Освещение в комнатах",
+        "Телевизор или компьютер",
+        "Зарядки для нескольких телефонов"
+      ],
+      "quick_facts_heading": "Коротко о главном",
+      "quick_facts": [
+        {
+          "label": "Топливо",
+          "value": "Обычный бензин АИ-92."
+        },
+        {
+          "label": "Время работы",
+          "value": "Бак на 5,8 литра обеспечит несколько часов спокойствия."
+        },
+        {
+          "label": "Надёжность",
+          "value": "Медная обмотка двигателя (служит дольше алюминиевой) и официальная гарантия 2 года."
+        },
+        {
+          "label": "Удобство",
+          "value": "Обычные розетки на 220 В и выход на 12 В (например, чтобы подзарядить автомобильный аккумулятор)."
+        }
+      ],
+      "audience": "Идеально подходит для дачников, любителей кемпинга, рыбаков и владельцев небольших частных домов как резервный источник питания.",
+      "kit_heading": "Комплектация",
+      "kit": "Генератор, инструкция, гарантийный талон.",
+      "kit_note": "Масло и аккумулятор для стартера могут докупаться отдельно — уточняйте при заказе.",
+      "specs_heading": "Технические характеристики",
+      "specs_excluded": "В комплектации и характеристиках данной модели отсутствуют: аккумулятор, система автозапуска, транспортировочные колёса, возможность контейнерного исполнения, а также разъёмы и соответствующая сила тока на 380 В.",
+      "specs_intro": "Перечень технических характеристик Zongshen BQH 2800 E (1T90DFQ29):",
+      "specs_table": [
+        {
+          "label": "Напряжение",
+          "value": "220 В"
+        },
+        {
+          "label": "Стартер",
+          "value": "Ручной стартер / электростартер"
+        },
+        {
+          "label": "Макс. мощность",
+          "value": "2,5 кВт"
+        },
+        {
+          "label": "Номинальная мощность при 220 В",
+          "value": "2,3 кВт"
+        },
+        {
+          "label": "Альтернатор",
+          "value": "Синхронный"
+        },
+        {
+          "label": "Обмотка альтернатора двигателя",
+          "value": "Медь"
+        },
+        {
+          "label": "Тип двигателя",
+          "value": "4-тактный"
+        },
+        {
+          "label": "Модель двигателя",
+          "value": "165FED/P"
+        },
+        {
+          "label": "Производитель двигателя",
+          "value": "Zongshen"
+        },
+        {
+          "label": "Объём двигателя",
+          "value": "149 см³"
+        },
+        {
+          "label": "Вид топлива",
+          "value": "Бензин"
+        },
+        {
+          "label": "Ёмкость топливного бака",
+          "value": "5,8 л"
+        },
+        {
+          "label": "Объём масляного бака",
+          "value": "0,5 л"
+        },
+        {
+          "label": "Датчик масла",
+          "value": "Да"
+        },
+        {
+          "label": "Индикатор уровня топлива",
+          "value": "Да"
+        },
+        {
+          "label": "Дисплей",
+          "value": "Да"
+        },
+        {
+          "label": "Счётчик моточасов",
+          "value": "Да"
+        },
+        {
+          "label": "Контроль напряжения",
+          "value": "Инверторный"
+        },
+        {
+          "label": "Тип кожуха",
+          "value": "Закрытый"
+        },
+        {
+          "label": "Степень защиты",
+          "value": "IP23"
+        },
+        {
+          "label": "Уровень шума",
+          "value": "72 дБ"
+        },
+        {
+          "label": "Эл. выходы 220 / 12 В",
+          "value": "2 / 1 шт."
+        },
+        {
+          "label": "Выход 12 В",
+          "value": "Да"
+        },
+        {
+          "label": "Сила тока розеток 220 / 12 В",
+          "value": "16 / 8 А"
+        },
+        {
+          "label": "Вес нетто",
+          "value": "22 кг"
+        },
+        {
+          "label": "Габариты (Д × Ш × В)",
+          "value": "540 × 360 × 530 мм"
+        },
+        {
+          "label": "Ручки для переноски",
+          "value": "Есть"
+        },
+        {
+          "label": "Число оборотов",
+          "value": "3000 об/мин"
+        },
+        {
+          "label": "Класс товара",
+          "value": "Бытовой"
+        }
+      ],
+      "passport_noise_db": 72
+    }
+  },
+  {
+    "id": "zongshen-pb-7000",
+    "name": "Zongshen PB 7000",
+    "brand": "Zongshen",
+    "fuel": "petrol",
+    "collection": "comfort",
+    "segment": "home",
+    "price": 70990,
+    "power_kw": 5.2,
+    "phases": 1,
+    "silence_level": 2,
+    "badges": [
+      "best-value"
+    ],
+    "coverage": [
+      "light",
+      "cold",
+      "water",
+      "tv",
+      "wifi"
+    ],
+    "image": "/images/products/zongshen-pb-7000.png",
+    "short_description": "Универсальный бензиновый генератор для коттеджа на 5 кВт.",
+    "highlights": [
+      "Счётчик моточасов и AVR для стабильного напряжения",
+      "Силовая розетка 32 А для котла",
+      "Бак 27 л — до 8 часов работы"
+    ],
+    "start_type": "manual",
+    "enclosure": "open",
+    "warranty_years": 2
+  },
+  {
+    "id": "ctg-cx8500a",
+    "name": "CTG CX8500A",
+    "brand": "CTG",
+    "fuel": "petrol",
+    "collection": "comfort",
+    "segment": "home",
+    "price": 72708,
+    "power_kw": 7.0,
+    "phases": 1,
+    "silence_level": 2,
+    "badges": [
+      "coldproof"
+    ],
+    "coverage": [
+      "light",
+      "cold",
+      "water",
+      "tv",
+      "wifi",
+      "kitchen"
+    ],
+    "image": "/images/products/ctg-cx8500a.png",
+    "short_description": "Бензиновый CX8500A 7 кВт с электростартером — комфорт коттеджа.",
+    "highlights": [
+      "Электростартер LIFAN KP460E",
+      "Защита от перегрузки и низкого масла",
+      "Колёса в комплекте"
+    ],
+    "start_type": "electric",
+    "enclosure": "open",
+    "warranty_years": 2
+  },
+  {
+    "id": "zongshen-kb-6000-e",
+    "name": "Zongshen KB 6000 E",
+    "brand": "Zongshen",
+    "fuel": "petrol",
+    "collection": "comfort",
+    "segment": "home",
+    "price": 78990,
+    "power_kw": 4.4,
+    "phases": 1,
+    "silence_level": 2,
+    "badges": [
+      "hit"
+    ],
+    "coverage": [
+      "light",
+      "cold",
+      "water",
+      "wifi"
+    ],
+    "image": "/images/products/zongshen-kb-6000-e.png",
+    "short_description": "Бензиновый генератор с AVR и электростартером для дома 100 м².",
+    "highlights": [
+      "Счётчик моточасов и AVR",
+      "Электростартер + колёса",
+      "Бак 32 л"
+    ],
+    "start_type": "electric",
+    "enclosure": "open",
+    "warranty_years": 2
+  },
+  {
+    "id": "reg-gg10000",
+    "name": "REG GG10000",
+    "brand": "REG",
+    "fuel": "petrol",
+    "collection": "comfort",
+    "segment": "home",
+    "price": 97209,
+    "power_kw": 8.5,
+    "phases": 1,
+    "silence_level": 2,
+    "badges": [
+      "coldproof",
+      "kristovsky"
+    ],
+    "coverage": [
+      "light",
+      "cold",
+      "water",
+      "tv",
+      "wifi",
+      "kitchen",
+      "ac"
+    ],
+    "image": "/images/products/reg-gg10000.png",
+    "short_description": "REG GG10000 — резерв для дома 200 м², опция АВР для автозапуска.",
+    "highlights": [
+      "Опция автоматического ввода резерва",
+      "Воздушное охлаждение, кожух — опция",
+      "Подходит для домов до 500 м² на газу"
+    ],
+    "start_type": "electric",
+    "enclosure": "open",
+    "warranty_years": 3
+  },
+  {
+    "id": "zongshen-bpb-9000-e",
+    "name": "Zongshen BPB 9000 E",
+    "brand": "Zongshen",
+    "fuel": "petrol",
+    "collection": "fortress",
+    "segment": "home",
+    "price": 149990,
+    "power_kw": 6,
+    "phases": 1,
+    "silence_level": 2,
+    "badges": [
+      "hit"
+    ],
+    "coverage": [
+      "light",
+      "cold",
+      "water",
+      "tv",
+      "wifi",
+      "kitchen",
+      "ac",
+      "heat"
+    ],
+    "image": "/images/products/zongshen-bpb-9000-e.png",
+    "short_description": "Тяжёлый бензиновый генератор 6 кВт с AVR и электростартером.",
+    "highlights": [
+      "Силовая розетка 32 А",
+      "Бак 30 л — до 10 часов работы",
+      "Электростартер и эконом-режим"
+    ],
+    "start_type": "electric",
+    "enclosure": "open",
+    "warranty_years": 2
+  },
+  {
+    "id": "ctg-cd20000a",
+    "name": "CTG CD20000A",
+    "brand": "CTG",
+    "fuel": "diesel",
+    "collection": "fortress",
+    "segment": "home",
+    "price": 354410,
+    "power_kw": 14,
+    "phases": 1,
+    "silence_level": 2,
+    "badges": [
+      "coldproof"
+    ],
+    "coverage": [
+      "light",
+      "cold",
+      "water",
+      "tv",
+      "wifi",
+      "kitchen",
+      "ac",
+      "heat"
+    ],
+    "image": "/images/products/ctg-cd20000a.png",
+    "short_description": "Дизельный CD20000A 14 кВт для дома 300+ м² и долгой работы.",
+    "highlights": [
+      "Дизельный двигатель — до суток на одной заправке",
+      "Подходит для котла, сауны, бассейна",
+      "Колёса для перемещения"
+    ],
+    "start_type": "electric",
+    "enclosure": "open",
+    "warranty_years": 2
+  },
+  {
+    "id": "ctg-cg10000sa",
+    "name": "CTG CG10000SA Silent",
+    "brand": "CTG",
+    "fuel": "gas",
+    "collection": "fortress",
+    "segment": "home",
+    "price": 560000,
+    "power_kw": 9.8,
+    "phases": 1,
+    "silence_level": 3,
+    "badges": [
+      "silent",
+      "kristovsky",
+      "coldproof"
+    ],
+    "coverage": [
+      "light",
+      "cold",
+      "water",
+      "tv",
+      "wifi",
+      "kitchen",
+      "ac",
+      "heat"
+    ],
+    "image": "/images/products/ctg-cg10000sa.png",
+    "short_description": "Газовый генератор пропан/метан 9.8 кВт в премиум шумозащитном кожухе.",
+    "highlights": [
+      "Шумозащитный кожух — 55 дБ (как разговор)",
+      "Двигатель Loncin 2V78F-2",
+      "Идеален для магистрального газа и газгольдера"
+    ],
+    "start_type": "auto",
+    "enclosure": "silent",
+    "warranty_years": 5
+  },
+  {
+    "id": "turnkey-petrol-8kw",
+    "name": "Решение «под ключ» — бензин 8 кВт",
+    "brand": "Profi",
+    "fuel": "turnkey",
+    "collection": "comfort",
+    "segment": "home",
+    "price": 312000,
+    "power_kw": 8,
+    "phases": 1,
+    "silence_level": 3,
+    "badges": [
+      "turnkey",
+      "hit"
+    ],
+    "coverage": [
+      "light",
+      "cold",
+      "water",
+      "tv",
+      "wifi",
+      "kitchen",
+      "heat"
+    ],
+    "image": "/images/products/turnkey-petrol-8kw.png",
+    "short_description": "Бензиновый генератор 8 кВт во всепогодном кожухе + АВР под ключ.",
+    "highlights": [
+      "Бензиновый генератор в шумозащитном кожухе",
+      "АВР: автозапуск без вашего участия",
+      "Подогрев + пуско-наладка + доставка ЦКАД"
+    ],
+    "start_type": "auto",
+    "enclosure": "silent",
+    "warranty_years": 5
+  },
+  {
+    "id": "turnkey-gas-8kw",
+    "name": "Решение «под ключ» — газ 8 кВт",
+    "brand": "Profi",
+    "fuel": "turnkey",
+    "collection": "comfort",
+    "segment": "home",
+    "price": 324000,
+    "power_kw": 8,
+    "phases": 1,
+    "silence_level": 3,
+    "badges": [
+      "turnkey",
+      "silent"
+    ],
+    "coverage": [
+      "light",
+      "cold",
+      "water",
+      "tv",
+      "wifi",
+      "kitchen",
+      "heat"
+    ],
+    "image": "/images/products/turnkey-gas-8kw.png",
+    "short_description": "Газовый генератор 8 кВт «под ключ» с АВР: магистраль и газгольдер.",
+    "highlights": [
+      "Работает от магистрали и баллонов",
+      "АВР, подогрев, монтаж и пуско-наладка",
+      "Самый экономный вид топлива"
+    ],
+    "start_type": "auto",
+    "enclosure": "silent",
+    "warranty_years": 5
+  },
+  {
+    "id": "turnkey-petrol-10kw",
+    "name": "Решение «под ключ» — бензин 10 кВт",
+    "brand": "Profi",
+    "fuel": "turnkey",
+    "collection": "fortress",
+    "segment": "home",
+    "price": 473368,
+    "power_kw": 10,
+    "phases": 1,
+    "silence_level": 3,
+    "badges": [
+      "turnkey",
+      "kristovsky"
+    ],
+    "coverage": [
+      "light",
+      "cold",
+      "water",
+      "tv",
+      "wifi",
+      "kitchen",
+      "ac",
+      "heat"
+    ],
+    "image": "/images/products/turnkey-petrol-10kw.png",
+    "short_description": "Полный комплект: бензиновый 10 кВт + кожух + АВР + монтаж.",
+    "highlights": [
+      "Шумозащитный всепогодный кожух",
+      "АВР с механической блокировкой",
+      "Подходит для домов до 350 м²"
+    ],
+    "start_type": "auto",
+    "enclosure": "all-weather",
+    "warranty_years": 7
+  },
+  {
+    "id": "turnkey-diesel-12kw",
+    "name": "Решение «под ключ» — дизель 12 кВт",
+    "brand": "Profi",
+    "fuel": "turnkey",
+    "collection": "fortress",
+    "segment": "home",
+    "price": 509388,
+    "power_kw": 12,
+    "phases": 1,
+    "silence_level": 3,
+    "badges": [
+      "turnkey",
+      "coldproof"
+    ],
+    "coverage": [
+      "light",
+      "cold",
+      "water",
+      "tv",
+      "wifi",
+      "kitchen",
+      "ac",
+      "heat"
+    ],
+    "image": "/images/products/turnkey-diesel-12kw.png",
+    "short_description": "Дизельный 12 кВт под ключ — холодный пуск и долгая работа.",
+    "highlights": [
+      "Зимний пакет с подогревом",
+      "Бак 60 л — сутки автономии",
+      "Идеально для крепости 300+ м²"
+    ],
+    "start_type": "auto",
+    "enclosure": "all-weather",
+    "warranty_years": 7
+  },
+  {
+    "id": "turnkey-pro-30kw",
+    "name": "Решение «под ключ» — Pro 30 кВт",
+    "brand": "Profi",
+    "fuel": "turnkey",
+    "collection": "fortress",
+    "segment": "home",
+    "price": 1004404,
+    "power_kw": 30,
+    "phases": 3,
+    "silence_level": 3,
+    "badges": [
+      "turnkey",
+      "silent"
+    ],
+    "coverage": [
+      "light",
+      "cold",
+      "water",
+      "tv",
+      "wifi",
+      "kitchen",
+      "ac",
+      "heat"
+    ],
+    "image": "/images/products/turnkey-pro-30kw.png",
+    "short_description": "Профессиональное решение для крепости 500+ м² и многофазной нагрузки.",
+    "highlights": [
+      "Трёхфазный генератор 30 кВт",
+      "Контейнерное исполнение",
+      "Полный энергоаудит и проект"
+    ],
+    "start_type": "auto",
+    "enclosure": "all-weather",
+    "warranty_years": 10
+  },
+  {
+    "id": "turnkey-petrol-budget",
+    "name": "Решение «под ключ» — бюджет 5 кВт",
+    "brand": "Profi",
+    "fuel": "turnkey",
+    "collection": "country",
+    "segment": "home",
+    "price": 260832,
+    "power_kw": 5,
+    "phases": 1,
+    "silence_level": 2,
+    "badges": [
+      "turnkey"
+    ],
+    "coverage": [
+      "light",
+      "cold",
+      "water",
+      "wifi"
+    ],
+    "image": "/images/products/turnkey-petrol-budget.png",
+    "short_description": "Минимальный комплект для дачи: 5 кВт + кожух + АВР под ключ.",
+    "highlights": [
+      "Доступный вход в автоматику",
+      "Шумозащитный кожух",
+      "Установка за 1 день"
+    ],
+    "start_type": "auto",
+    "enclosure": "silent",
+    "warranty_years": 5
+  },
+  {
+    "id": "retail-gas-15kw",
+    "name": "Profi Retail Gas 15 кВт",
+    "brand": "Profi",
+    "fuel": "gas",
+    "collection": "retail",
+    "segment": "business",
+    "price": 745000,
+    "power_kw": 15,
+    "phases": 1,
+    "silence_level": 3,
+    "badges": [
+      "turnkey",
+      "silent"
+    ],
+    "coverage": [
+      "pos",
+      "cold",
+      "light",
+      "wifi"
+    ],
+    "image": "/images/products/retail-gas-15kw.png",
+    "short_description": "Газовый генератор для магазина и аптеки: тишина, экономия, автозапуск.",
+    "highlights": [
+      "Защищает кассы, терминалы и холодильники",
+      "Окупаемость от 6 месяцев",
+      "Магистральный газ или баллоны"
+    ],
+    "start_type": "auto",
+    "enclosure": "silent",
+    "warranty_years": 7
+  },
+  {
+    "id": "production-diesel-50kw",
+    "name": "Profi Production Diesel 50 кВт",
+    "brand": "Profi",
+    "fuel": "diesel",
+    "collection": "production",
+    "segment": "business",
+    "price": 1850000,
+    "power_kw": 50,
+    "phases": 3,
+    "silence_level": 2,
+    "badges": [
+      "turnkey",
+      "coldproof"
+    ],
+    "coverage": [
+      "machine",
+      "light",
+      "wifi"
+    ],
+    "image": "/images/products/production-diesel-50kw.png",
+    "short_description": "Дизельный 50 кВт для производства: защита от перекоса фаз и пусковых.",
+    "highlights": [
+      "Контейнерное исполнение",
+      "Защита станков от перепадов",
+      "Сутки автономии без дозаправки"
+    ],
+    "start_type": "auto",
+    "enclosure": "all-weather",
+    "warranty_years": 10
+  },
+  {
+    "id": "datacenter-hybrid-25kw",
+    "name": "Profi Hybrid Data 25 кВт",
+    "brand": "Profi",
+    "fuel": "turnkey",
+    "collection": "datacenter",
+    "segment": "business",
+    "price": 1480000,
+    "power_kw": 25,
+    "phases": 3,
+    "silence_level": 3,
+    "badges": [
+      "turnkey",
+      "silent"
+    ],
+    "coverage": [
+      "server",
+      "wifi",
+      "ac",
+      "light"
+    ],
+    "image": "/images/products/datacenter-hybrid-25kw.png",
+    "short_description": "Гибрид ИБП + газовый генератор для дата-центра и офиса.",
+    "highlights": [
+      "Мгновенный подхват от ИБП",
+      "Бесшумная стойка в серверной",
+      "Резерв до недели на газгольдере"
+    ],
+    "start_type": "auto",
+    "enclosure": "silent",
+    "warranty_years": 10
+  }
+]
